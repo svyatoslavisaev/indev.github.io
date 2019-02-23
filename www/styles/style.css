@@ -1,0 +1,43 @@
+h1{
+    background-color:black;
+    color:darkcyan;
+    text-align:center;
+}
+*{
+    background-color:darkcyan;
+    zoom:130%;
+}
+#what{
+    color:lime;
+}
+#js{
+    background-color: yellow;
+    font-family:"Arial Black";
+}
+a:hover{
+    font-size: 120%;
+    background-color: chocolate;
+    color:lawngreen;
+}
+a{
+    background-color:darkred;
+    color:darkcyan;
+}
+.otv{
+    color:darkgreen;
+}
+#ico1{
+    width:10%;
+    float:left;
+}
+#ico2{
+    width:10%;
+    float:right;
+}
+.WG{
+    color: chartreuse;
+}
+input{
+    color:darkcyan;
+    background-color: blue;
+}

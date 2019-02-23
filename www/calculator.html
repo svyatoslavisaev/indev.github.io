@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/score.js"></script>
+</head>
+<body>
+    <h1>Калькулятор</h1>
+    <hr>
+    <form name="Calculator" action="" method="get">
+        <input type="number" name="first" placeholder="5">
+        <br>
+        <label for="+">Сложить</label>
+        <input type="radio" name="Action" value="plus" id="+">
+        <br>
+        <label for="-">Вычесть</label>
+        <input type="radio" name="Action" value="minus" id="-">
+        <br>
+        <label for="*">Умножить</label>
+        <input type="radio" name="Action" value="multiplication" id="*">
+        <br>
+        <label for=":">Разделить</label>
+        <input type="radio" name="Action" value="division" id=":">
+        <br>
+        <input type="number" name="second" placeholder="5">
+        <br>
+        <input  type="button" value="Равно" onclick="PMDU()">
+    </form>
+</body>
+</html>
